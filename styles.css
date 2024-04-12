@@ -27,6 +27,12 @@ main {
 #hotel-list1{
     text-decoration: underline;
 }
+#car-list{
+    font-weight: bolder;
+}
+#hotel-list{
+    font-weight: bold;
+}
 .request-card {
     background-color: #f9f9f9;
     padding: 20px;
