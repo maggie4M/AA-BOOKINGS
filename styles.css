@@ -21,7 +21,10 @@ footer {
 main {
     padding: 2rem;
 }
-#main{
+#car-list{
+    text-decoration: underline;
+}
+#hotel-list{
     text-decoration: underline;
 }
 .request-card {
