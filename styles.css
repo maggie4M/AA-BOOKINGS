@@ -191,6 +191,7 @@ button[type="submit"]:hover {
     font-style: italic;
     font-size: medium;
     align-items: baseline;
+    font-weight: 500;
 }
 #thank {
     font-size: x-large;
