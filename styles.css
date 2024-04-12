@@ -29,9 +29,11 @@ main {
 }
 #car-list{
     font-weight: bolder;
+    font-style: oblique;
 }
 #hotel-list{
     font-weight: bold;
+    font-style: italic;
 }
 .request-card {
     background-color: #f9f9f9;
