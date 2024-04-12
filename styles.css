@@ -23,9 +23,11 @@ main {
 }
 #car-list1{
     text-decoration: underline;
+    font-size: x-large;
 }
 #hotel-list1{
     text-decoration: underline;
+    font-size: x-large;
 }
 #car-list{
     font-weight: bolder;
