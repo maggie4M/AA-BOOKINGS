@@ -21,6 +21,9 @@ footer {
 main {
     padding: 2rem;
 }
+#main{
+    text-decoration: underline;
+}
 .request-card {
     background-color: #f9f9f9;
     padding: 20px;
