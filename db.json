@@ -1,0 +1,55 @@
+{
+    "cars": [
+      {
+        "id": "1",
+        "Name": "Toyota Landcruiser-custom Safari Built",
+        "Description": "6 seats (5 Guaranteed Window Seats + driver/guide).Pop up roof for unobstructed game viewing Winding windows on each side of the vehicle behind the driver’s and co-driver’s seat. Roof hatch above the driver/guide and co-driver’s seat. The longer hatch extends behind all passenger seats. Luggage space is limited and we recommend about 15 to 20 kgs of luggage per person, preferably in soft bags or soft cover suitcases.",
+        "year": 2020,
+        "Picture": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fsunworld-safari.com%2Ftoyota-landcruiser%2F&psig=AOvVaw3K5lu-srz1vLEdwcBS8y18&ust=1713008060607000&source=images&cd=vfe&opi=89978449&ved=0CBIQjRxqFwoTCKj_hrzKvIUDFQAAAAAdAAAAABAD",
+        "price_per_day": 5000
+      },
+      {
+        "id": "2",
+        "Name": "Toyota Landcruiser-with wheelchair access",
+        "Description": "Modified Toyota Landcruiser with access to a wheelchair to accomodate to people with special needs",
+        "year": 2019,
+        "Picture": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwheelchairtravel.org%2Fspotting-big-5-wheelchair-accessible-tour-masai-mara-national-reserve-kenya%2Fmasai-mara-land-cruiser-wheelchair-ramp%2F&psig=AOvVaw20ii7JTQNSo69Zq4ZvEu5F&ust=1713008170403000&source=images&cd=vfe&opi=89978449&ved=0CBIQjRxqFwoTCPDEvfPKvIUDFQAAAAAdAAAAABAD",
+        "price_per_day": 6000
+      },
+      {
+        "id": "3",
+        "Name": "Toyota Prado",
+        "Description": "Luxury 4 wheel drive vehicle with Petrol Engine Comfortable, luxury seats offering ample space for 4 – 5 adult passengers including the driver on executive use. Available in White / Black colour Air conditioning, Power electric windows, auto gear box, central locking, chrome bumper, side steps, power steering, and a stereo CD tuner sound system. Ample luggage space & ideally suited for VIP transportation & airport transfers as well as road drop offs to game reserves.",
+        "year": 2018,
+        "Picture": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.aboudcar.com%2Fvehicles%2Ftoyota_toyota-prado-4-0l-a-tpetroltxlmy23_4.0L_Mid-AT_petrol_2023&psig=AOvVaw081VojJQyWiIrXcTbTtQpg&ust=1713007933212000&source=images&cd=vfe&opi=89978449&ved=0CBIQjRxqFwoTCLC5goTKvIUDFQAAAAAdAAAAABAJ",
+        "price_per_day": 3000
+      }
+    ],
+    "Hotels": [
+      {
+        "id": "1",
+        "Name": "Soroi Mara Bush Camp",
+        "Description": "Welcome to the Mara Bush Camp A Safari Life with an Eco-Focus A great location is key for the most amazing photographs and memories when going on safari! Luxury walk-in tents, yet being close to nature Being Gold - Eco rated is an important aspect and the camps offer 12 well-appointed luxury tents, each overlooking the Olare Orok River with a low carbon footprint in mind. All walk-in tents have been designed with minimal impact on the environment, run on solar power, handcrafted furniture out of sustainable wood and materials and are designed with great attention to detail.",
+        "price_per_day_p.p": 45000,
+        "Location": "The Maasai Mara",
+        "picture": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.chaloafrica.com%2Faccommodation%2Fsoroi-luxury-migration-camp-masai-mara-kenya%2F&psig=AOvVaw1lTTnKbs9o1CNrkHuRK58N&ust=1713008805743000&source=images&cd=vfe&opi=89978449&ved=0CBIQjRxqFwoTCIC76KDNvIUDFQAAAAAdAAAAABAD"
+      },
+      {
+        "id": "2",
+        "Name": "The social House",
+        "Description": "The House offers 83 bedrooms, that are simple, stylish and sensible. We call them our Triple S Bedrooms: Simple (easy to operate); Stylish (natural tones, with splashes of bright colour); Sensible (helpful and practical)And a touch off-beat: unusual cuisines; unexpected events; untypical meetings; unorthodox interiors; unconventional bedrooms; uncommon people.",
+        "Location": "Nairobi",
+        "Picture": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.booking.com%2Fhotel%2Fke%2Fthe-social-house.html&psig=AOvVaw0lCVWAV0rfoA3SsQ-_lokD&ust=1713008446832000&source=images&cd=vfe&opi=89978449&ved=0CBIQjRxqFwoTCJDzmvrLvIUDFQAAAAAdAAAAABAI",
+        "price_per_day_p.p": 25000
+      },
+      {
+        "id":"3",
+        "Name": "Cardamom House",
+        "Description": "On a wild piece of land fringed by sea and dense vegetation, there was once an old, picturesque house that has been conjured into a refined accommodation in minimalist Swahili style. It has 2 penthouses, 8 suites (10 rooms in total)",
+        "Location": "Kilifi",
+        "Picture": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fsecludedafrica.com%2Fcardamom-house%2F&psig=AOvVaw0Gk3zdmLfuwd00a80pv552&ust=1713009423255000&source=images&cd=vfe&opi=89978449&ved=0CBIQjRxqFwoTCPD148TPvIUDFQAAAAAdAAAAABAD",
+        "price_per_day_p.p": 35000
+      }
+    ]
+  }
+  

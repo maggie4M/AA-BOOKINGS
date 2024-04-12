@@ -1,0 +1,157 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color:white;
+}
+
+header {
+    background-position: center; 
+    background-color: darkcyan;
+    text-align: center;
+    padding: 1rem 0;
+    height: 20vh;
+}
+footer {
+    background-color: darkcyan;
+    color: #fff;
+    text-align: center;
+    padding: 4rem 0;
+}
+main {
+    padding: 2rem;
+}
+.request-card {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.request-card h3 {
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+
+.request-card form {
+    display: flex;
+    flex-direction: column;
+}
+
+.request-card .form-group {
+    margin-bottom: 15px;
+}
+
+.request-card label {
+    font-weight: bold;
+}
+
+.request-card input,
+.request-card textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+    transition: border-color 0.3s ease;
+}
+
+.request-card input:focus,
+.request-card textarea:focus {
+    outline: none;
+    border-color: black;
+}
+
+.request-card button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    float: left;
+}
+
+.request-card button:hover {
+    background-color: #0056b3;
+}
+.request-card {
+    background-color: crimson;
+    padding: 100px;
+    border-radius: 100px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: 1600px;
+    margin: auto;
+    display: flex;
+    top: 50%;
+    left: 50%;
+    float: left;
+}
+
+section {
+    margin-bottom: 2rem;
+}
+
+form {
+    display: flex;
+    max-width: 1500px;
+    margin-bottom: 1rem;
+}
+
+label {
+    margin-bottom: 0.5rem;
+}
+
+input[type="text"],
+input[type="date"],
+button {
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+}
+
+button {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color:blueviolet;
+}
+
+#title {
+    font-size: xx-large;
+    font-style: oblique;
+    color: maroon;
+}
+#phrase{
+    font-style: italic;
+    font-weight: 900;
+    color: #333;
+}
+#Welcome{
+    font-weight: lighter;
+}
+#quick-request {
+    font-style: italic;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fff
+}
+
+#Description{
+    font-style: italic;
+    font-size: medium;
+    align-items: baseline;
+}
+#thank {
+    font-size: x-large;
+    font-weight: bolder;
+}
+#partner{
+    font-size: xx-large;
+    color: darkviolet;
+}

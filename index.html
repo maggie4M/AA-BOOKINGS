@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AA-BOOKINGS</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1 id="title">AA-BOOKINGS</h1>
+        <h3 id="phrase">Plan Book Discover </h3>
+        <h4 id="Welcome">Welcome!</h4>
+    </header>
+    <section>
+    <p id="Description">AA-BOOKINGS helps customers to hire cars for travelling within the country and book accommodation within the hotels that partner with us please look throught the options below and fill in the forms , you will receive an email confirming your booking of either a vehicle or a hotel or both if available according to your needs and selection we will cater to them to the best of our ability. </p>
+    <p id="thank">THANK YOU FOR PICKING US AS YOUR TRUSTED BOOKING COMPANY !! </p>
+</section>
+    <main id="main">
+        <section>
+            <h1>Car Rentals</h1>
+            <div id="carList" class="car-list"></div>
+
+            <h1>Hotels</h1>
+            <div id="hotelList" class="hotel-list"></div>
+
+        </section>
+        <section>
+            <div class="request-card">
+                <div>
+                    <h3 id="quick request">QUICK REQUEST</h3>
+
+                <form id="quote-form">
+                    <div class="form-group">
+                        <label for="name">Your Name</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    <div  class="form-group">
+                        <label for="email">Your Email</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" rows="4" required></textarea>
+                    </div>
+                    <div>
+                        <label for="hotel">Hotel Your Are Interested In </label>
+                        <select name="Hotel" id="Hotel">
+                            <option value="">Select</option>
+                            <option value="The Social House Nairobi">The Social House Nairobi</option>
+                            <option value="Soroi Mara Bush Camp">Soroi Mara Bush Camp</option>
+                            <option value="Cardamom House Kilifi">Cardamom House Kilifi</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="budget">Budget Per Person</label>
+                        <select id="budget" name="budget">
+                            <option value="">Select</option>
+                            <option value="0-10000">Ksh0 - Ksh10000</option>
+                            <option value="100001-30000">Ksh10001 - Ksh30000</option>
+                            <option value="30001-60000">Ksh30001 - Ksh60000</option>
+                            <option value="60001-99999">Ksh60001 - Ksh99999</option>
+                            <option value="100000+">Ksh100000+</option>
+                        </select>
+                    </div>
+                    <button type="submit">Submit</button>
+                </form>
+            </div>
+        </section>
+        <br>
+        <section>
+            <div class="container">
+                <h2>Vehicle Hire Form</h2>
+                <div class="card">
+                    <form id="vehicleForm">
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="vehicleType">Type of Vehicle</label>
+                                <select id="vehicleType">
+                                    <option value="Toyota Landcruiser">Toyota Landcruiser</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <label for="name">Name</label>
+                                <input type="text" id="name" name="name" required>
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="email">Email</label>
+                                <input type="email" id="email" name="email" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="telephone">Telephone</label>
+                                <input type="tel" id="telephone" name="telephone" required>
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="adults">No of Adults</label>
+                                <input type="number" id="adults" name="adults" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="children">No of Children</label>
+                                <input type="number" id="children" name="children" required>
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="startDate">Start Date</label>
+                                <input type="date" id="startDate" name="startDate" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="endDate">End Date</label>
+                                <input type="date" id="endDate" name="endDate" required>
+                            </div>
+                        </div>
+                        <button type="submit">Submit</button>
+                    </form>
+                </div>
+            </div>
+            
+    </div>
+</div>
+
+        </section>
+        <section>
+            <p id="partner">In Patnership With:</p>
+            <img id="magicalkenya" src="./images/magicalkenya.png" alt="magical kenya Logo" >
+            <img src="./images/cardamom.png" alt="cardamom logo">
+            <img src="./images/thesocialhouse.png" alt="social house logo">
+            <img src="./images/marabush.png" alt="marabush logo">
+            <img src="./images/toyota.png" alt="toyota logo">
+        </section>
+    </main>
+    <footer>
+        <p>Contact us</p>
+        <p>Email:AA-bookings.gmail.ccom</p>
+        <p>Telephone:+2547890890345</p>
+        <p>Offices : P.O.BOX 990- Nairobi</p>
+        <p>&copy; 2024 AA-BOOKINGS </p>
+    </footer>
+    <script src="scripts.js"></script>
+</body>
+</html>
