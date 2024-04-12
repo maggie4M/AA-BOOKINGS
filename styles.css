@@ -199,6 +199,7 @@ button[type="submit"]:hover {
     background-color: black;
     color: #fff;
     align-items: center;
+    letter-spacing: 1px;
 }
 #partner{
     font-size: xx-large;
