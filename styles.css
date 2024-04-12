@@ -95,7 +95,7 @@ main {
     background-color: #0056b3;
 }
 .request-card {
-    background-color: crimson;
+    background-color: cadetblue;
     padding: 100px;
     border-radius: 100px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
@@ -161,7 +161,7 @@ body {
     background-color: #fff
 }
 .container{
-    background-color: khaki;
+    background-color: azure;
     padding: 80px;
     border-radius: 70px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
