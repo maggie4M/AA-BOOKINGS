@@ -141,6 +141,32 @@ body {
     font-family: Arial, sans-serif;
     background-color: #fff
 }
+.container{
+    background-color: khaki;
+    padding: 80px;
+    border-radius: 70px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: 1700px;
+    margin: auto;
+    display: flex;
+    top: 50%;
+    left: 50%;
+}
+
+button[type="submit"] {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button[type="submit"]:hover {
+    background-color: #0056b3;
+}
 
 #Description{
     font-style: italic;

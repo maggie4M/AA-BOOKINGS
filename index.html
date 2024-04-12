@@ -13,17 +13,16 @@
         <h4 id="Welcome">Welcome!</h4>
     </header>
     <section>
-    <p id="Description">AA-BOOKINGS helps customers to hire cars for travelling within the country and book accommodation within the hotels that partner with us please look throught the options below and fill in the forms , you will receive an email confirming your booking of either a vehicle or a hotel or both if available according to your needs and selection we will cater to them to the best of our ability. </p>
+    <p id="Description">AA-BOOKINGS helps customers to hire cars for travelling within the country and book accommodation within the hotels that partner with us please look throught the options below and fill in the forms , you will receive an email confirming your booking of either a vehicle or a hotel or both , if available according to your needs and selection we will cater to them to the best of our ability. </p>
     <p id="thank">THANK YOU FOR PICKING US AS YOUR TRUSTED BOOKING COMPANY !! </p>
 </section>
     <main id="main">
         <section>
             <h1>Car Rentals</h1>
-            <div id="carList" class="car-list"></div>
+            <div id="car-list" ></div>
 
             <h1>Hotels</h1>
-            <div id="hotelList" class="hotel-list"></div>
-
+            <div id="hotel-list" ></div>
         </section>
         <section>
             <div class="request-card">
@@ -70,59 +69,44 @@
         <br>
         <section>
             <div class="container">
-                <h2>Vehicle Hire Form</h2>
-                <div class="card">
-                    <form id="vehicleForm">
-                        <div class="form-row">
-                            <div class="form-group">
-                                <label for="vehicleType">Type of Vehicle</label>
-                                <select id="vehicleType">
-                                    <option value="Toyota Landcruiser">Toyota Landcruiser</option>
-                                </select>
-                            </div>
-                            <div class="form-group">
-                                <label for="name">Name</label>
-                                <input type="text" id="name" name="name" required>
-                            </div>
-                        </div>
-                        <div class="form-row">
-                            <div class="form-group">
-                                <label for="email">Email</label>
-                                <input type="email" id="email" name="email" required>
-                            </div>
-                            <div class="form-group">
-                                <label for="telephone">Telephone</label>
-                                <input type="tel" id="telephone" name="telephone" required>
-                            </div>
-                        </div>
-                        <div class="form-row">
-                            <div class="form-group">
-                                <label for="adults">No of Adults</label>
-                                <input type="number" id="adults" name="adults" required>
-                            </div>
-                            <div class="form-group">
-                                <label for="children">No of Children</label>
-                                <input type="number" id="children" name="children" required>
-                            </div>
-                        </div>
-                        <div class="form-row">
-                            <div class="form-group">
-                                <label for="startDate">Start Date</label>
-                                <input type="date" id="startDate" name="startDate" required>
-                            </div>
-                            <div class="form-group">
-                                <label for="endDate">End Date</label>
-                                <input type="date" id="endDate" name="endDate" required>
-                            </div>
-                        </div>
-                        <button type="submit">Submit</button>
-                    </form>
-                </div>
+               <div> <h2>Car Inquiry Form</h2>
+                <form id="car-inquiry-form">
+                    <div class="form-group">
+                        <label for="car">Car Interested In</label>
+                        <select name="Car" id="Car">
+                        <option value="">Select</option>
+                        <option value="Toyota Landcruiser-custom Safari Built">Toyota Landcruiser-custom Safari Built</option>
+                        <option value="Toyota Landcruiser-with wheelchair access">Toyota Landcruiser-with wheelchair access</option>
+                        <option value="Toyota Prado">Toyota Prado</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="name">Your Name</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Your Email</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="telephone">Telephone</label>
+                        <input type="tel" id="telephone" name="telephone">
+                    </div>
+                    <div class="form-group">
+                        <label for="people">Number of People</label>
+                        <input type="number" id="people" name="people" min="1" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="pick-up-date">Pick-up Date</label>
+                        <input type="date" id="start-date" name="start-date" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="Drop-off-date">Drop-off Date</label>
+                        <input type="date" id="end-date" name="end-date" required>
+                    </div>
+                    <button type="submit">Submit</button>
+                </form>
             </div>
-            
-    </div>
-</div>
-
         </section>
         <section>
             <p id="partner">In Patnership With:</p>
@@ -140,6 +124,6 @@
         <p>Offices : P.O.BOX 990- Nairobi</p>
         <p>&copy; 2024 AA-BOOKINGS </p>
     </footer>
-    <script src="scripts.js"></script>
+    <script src="index.js"></script>
 </body>
 </html>
