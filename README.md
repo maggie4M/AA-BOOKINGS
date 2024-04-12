@@ -11,7 +11,7 @@ AA-BOOKINGS helps customers to hire cars for travelling within the country and b
 
 Project Setup Instructions:
 
-Clone the repository to your local machine: git clone https://github.com/maggie4M/Booking-Website
+Clone the repository to your local machine: git clone https://github.com/maggie4M/AA-BOOKINGS.git
 Navigate to the project directory: cd BookingWebsite
 Open index.html in your web browser to view the website locally.
 
@@ -21,7 +21,7 @@ Installation Requirements
 
 Link to Live Site on GitHub Pages:
 
-https://github.com/maggie4M/Booking-Website.git
+https://github.com/maggie4M/AA-BOOKINGS.git
 
 Technologies Used
 
