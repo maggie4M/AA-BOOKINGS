@@ -197,6 +197,7 @@ button[type="submit"]:hover {
     font-size: x-large;
     font-weight: bolder;
     background-color: black;
+    color: #fff;
 }
 #partner{
     font-size: xx-large;
