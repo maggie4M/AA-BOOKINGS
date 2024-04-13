@@ -31,6 +31,7 @@ document.addEventListener('DOMContentLoaded', function() {
                         
                     `;
                     hotelList.appendChild(hotelDiv);
+
                 });
             })
             .catch(error => console.error('Error fetching data:', error));
@@ -40,12 +41,12 @@ document.addEventListener('DOMContentLoaded', function() {
         
         quoteForm.addEventListener('submit', function(event) {
             event.preventDefault();
-         window.location.reload();
+            alert('Form Submitted');
         });
     
         carInquiryForm.addEventListener('submit', function(event) {
             event.preventDefault();
-            window.location.reload();
+            alert('Form Submitted');
         });
     });
     
