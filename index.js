@@ -42,11 +42,13 @@ document.addEventListener('DOMContentLoaded', function() {
         quoteForm.addEventListener('submit', function(event) {
             event.preventDefault();
             alert('Form Submitted');
+            quoteForm.reset();
         });
     
         carInquiryForm.addEventListener('submit', function(event) {
             event.preventDefault();
             alert('Form Submitted');
+            carInquiryForm.reset();
         });
     });
     
